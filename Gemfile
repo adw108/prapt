@@ -24,7 +24,8 @@ gem 'sqlite3'
 gem 'aws-s3', :require => 'aws/s3'
 gem 'authlogic'
 gem "paperclip", :git => "http://github.com/thoughtbot/paperclip.git"
-
+gem 'omniauth'
+gem 'mongrel', '1.2.0.pre2'
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:

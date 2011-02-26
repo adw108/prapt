@@ -38,4 +38,8 @@ class UserSessionsController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  
+  def create_from_external
+    render :layout => nil
+  end
 end
